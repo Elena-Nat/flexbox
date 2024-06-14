@@ -1,0 +1,41 @@
+/* A effacer en fin de projet  */
+body {
+	
+	background-color:green;
+}
+
+/* Mise en page */
+
+/* Navigation */
+nav ul { 
+	flex-wrap:nowrap;
+}
+
+/* Main */
+main {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+section#featured {
+	order:-2;
+	max-width:75%;
+}
+
+section#thumbnail {
+	display:flex;
+	flex-direction:column;
+	order:-1;
+	max-width:25%;
+}
+
+section#news {
+	min-width:100%;
+}
+
+section#about, section#location {
+	max-width:50%;
+}
+
+/* Footer */

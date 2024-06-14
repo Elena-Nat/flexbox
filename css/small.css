@@ -1,0 +1,75 @@
+/* A effacer en fin de projet  */
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	
+	background-color:pink;
+}
+nav,
+section#featured, section#thumbnail, section#thumbnail figure, section#news, section#about, section#location, footer {
+	border:2px solid black;
+	margin-bottom:5px;
+}
+
+
+/* Mise en page */
+
+/* Navigation */
+nav { 
+	position:sticky ;
+/* 	la propriété position: sticky au lieu de position: fixed pour maintenir le menu en haut tout en permettant au contenu de commencer juste en dessous du menu, quelle que soit la hauteur de celui-ci. position: sticky permet à l'élément de rester "collé" en haut lorsqu'il atteint une certaine position de défilement. */
+    left:0;
+	top:0;
+}
+
+
+/* facultatif */
+nav ul { 
+	display:flex;
+	flex-direction:column;
+}
+
+/* Main */
+/* facultatif */
+main {
+	margin-top:2em;
+	display:flex;
+	flex-direction:column;
+}
+
+section#thumbnail {
+	display:none;
+}
+
+/* Footer  */
+
+
+/* Gestion adaptative images  */
+
+figure img {
+	max-width:100%;
+	height:auto;
+	
+}
+
+/* Look  */
+body {
+ font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }
+
+h2 {
+   font-size: 2em;
+    margin-bottom: 0.3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+ /* Animation  */ 
+ 
+ 
